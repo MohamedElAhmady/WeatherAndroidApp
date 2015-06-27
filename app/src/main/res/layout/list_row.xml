@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/city_txtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#090e2d"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/temp_txtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:text="temprature"
+            android:padding="5dp"
+            android:textColor="#468499"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+</LinearLayout>
